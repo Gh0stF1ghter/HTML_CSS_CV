@@ -72,6 +72,10 @@ header{
     margin-bottom: 8px;
 }
 
+.Link img{
+    height: 20px;
+    width: 20px;
+}
 
 #Contacts{
     display: flex;
@@ -94,6 +98,8 @@ header{
 
 .Contact img
 {
+    height: 20px;
+    width: 20px;
     vertical-align: middle;
     margin-right: 6px;
 }
