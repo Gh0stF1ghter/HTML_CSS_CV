@@ -1,7 +1,12 @@
 html{
     font-family: 'DM Sans', sans-serif;
     word-wrap: break-word;
-    
+}
+
+body{
+    width: 595px;
+    height: 842px;
+    margin: auto;
 }
 
 header{
@@ -11,8 +16,8 @@ header{
     height: 196px;
     flex-shrink: 0; 
     border-bottom: 2px solid black;
-    margin: auto;
 }
+
 #Top{
     display: flex;
     flex-direction: row;
@@ -64,7 +69,6 @@ header{
     margin-left: 21px;
     margin-top: 46px;
 }
-
 .Link{
     width: 20px;
     height: 20px;
@@ -95,11 +99,36 @@ header{
     font-style: normal;
     font-weight: 400;
 }
-
 .Contact img
 {
     height: 20px;
     width: 20px;
     vertical-align: middle;
     margin-right: 6px;
+}
+
+main{
+display: flex;
+border-bottom: 2px solid black;
+}
+
+main div{
+    display: flex;
+    flex-direction: column;
+}
+
+#LeftBlock{
+    width: 378px;
+    height: 646px;
+    flex-shrink: 0;
+}
+
+#RightBlock{
+    width: 213px;
+    height: 646px;
+    flex-shrink: 0;
+}
+
+footer{
+    height: 100px;
 }
