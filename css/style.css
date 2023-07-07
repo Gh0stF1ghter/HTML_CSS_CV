@@ -198,9 +198,6 @@ article{
     margin-left: auto;
 }
 
-footer{
-    height: 100px;
-}
 
 #Skills{
     flex-direction: row;
@@ -240,4 +237,22 @@ footer{
     margin-left: auto;
     font-style: italic;
     color: #999;
+}
+
+footer{
+    height: 100px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+footer div{
+    margin-top: 10px;
+}
+
+footer a{
+    color: #000;
+    font-variant: normal;
+    text-decoration: none;
 }
