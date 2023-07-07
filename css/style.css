@@ -226,3 +226,18 @@ footer{
     flex-shrink: 0;
 }
 
+.Language{
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.Language div{
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.Language .Simple{
+    margin-left: auto;
+    font-style: italic;
+    color: #999;
+}
